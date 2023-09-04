@@ -9,4 +9,5 @@
 
 ### 1 : Naive Ver
 
+<img width="80%" alt="1_1" src="https://github.com/JaeYi-Sung/Christmas-in-August/assets/130656624/98c83a5c-b394-40b6-8e33-7e2c0275d2a6">
 
