@@ -1,0 +1,713 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background: #B9EEFF;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #FC0F1E;
+}
+
+.snow {
+  padding: 0px 0px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: -12px;
+  scroll-behavior: smooth;
+  margin: 0rem 0rem;
+}
+
+.footprints {
+  position: fixed;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.footprints > div {
+  position: fixed;
+  font-size: 20rem;
+}
+
+.clicksnow {
+  padding: 0px 0px;
+  position: fixed;
+  z-index: 100;
+  border-radius: 50%;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+  margin: 0rem 0rem;
+}
+
+.main {
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  min-height: 100vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main h1 {
+  position: absolute;
+  margin: 0rem 0rem;
+  bottom: 3.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.logo-holder {
+  bottom: 2rem;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-holder img {
+  width: 70vw;
+}
+
+.heart-holder {
+  top: 50%;
+  display: flex;
+  margin: 0rem 0rem;
+  align-items: center;
+  padding: 0px 0px;
+}
+.heart-holder img {
+  width: 15vw;
+}
+
+.music {
+  min-height: 100vh;
+  min-width: 80vw;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+.music p {
+  position: absolute;
+  top: 10vh;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.music p img {
+  top: 0.1rem;
+  width: 1.2rem;
+  vertical-align: text-bottom;
+}
+
+.Trackname1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+}
+.Trackname1 h1 {
+  position: absolute;
+  top: 28vh;
+  left: -1.5rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Trackname2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+}
+.Trackname2 h1 {
+  position: absolute;
+  top: 28vh;
+  left: -1.4rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Trackname3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+}
+.Trackname3 h1 {
+  position: absolute;
+  top: 28vh;
+  left: -1.9rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Trackname4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+}
+.Trackname4 h1 {
+  position: absolute;
+  top: 28vh;
+  left: -1.6rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Trackname5 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+}
+.Trackname5 h1 {
+  position: absolute;
+  top: 28vh;
+  left: -1.5rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Trackname6 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+}
+.Trackname6 h1 {
+  position: absolute;
+  top: 28vh;
+  left: -1.75rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Christmas-Tree {
+  position: relative;
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+
+.final-tree {
+  position: absolute;
+  top: -30vh;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+input.Lipgloss {
+  position: absolute;
+  top: -26vh;
+  width: 4vh;
+  height: 4vh;
+  border: none;
+  background-color: rgba(36, 114, 223, 0);
+  z-index: 100;
+}
+
+input.PassionFruit {
+  position: absolute;
+  top: -7vh;
+  left: 2.2vh;
+  width: 4vh;
+  height: 4vh;
+  border: none;
+  background-color: rgba(214, 24, 24, 0);
+  z-index: 100;
+}
+
+input.Lighthouse {
+  position: absolute;
+  top: 7.5vh;
+  right: 8.5vh;
+  width: 4vh;
+  height: 4vh;
+  border: none;
+  background-color: rgba(115, 9, 229, 0);
+  z-index: 100;
+}
+
+input.Fantasize {
+  position: absolute;
+  top: -1.7vh;
+  right: 3.7vh;
+  width: 4vh;
+  height: 4vh;
+  border: none;
+  background-color: rgba(18, 205, 89, 0);
+  z-index: 100;
+}
+
+input.FireEyes {
+  position: absolute;
+  top: -13.2vh;
+  right: 3vh;
+  width: 4vh;
+  height: 4vh;
+  border: none;
+  background-color: rgba(228, 24, 119, 0);
+  z-index: 100;
+}
+
+input.FairyTale {
+  position: absolute;
+  top: 4.3vh;
+  left: 5vh;
+  width: 4vh;
+  height: 4vh;
+  border: none;
+  background-color: rgba(29, 194, 200, 0);
+  z-index: 100;
+}
+
+.Advent-Calendar {
+  height: 60vh;
+  min-width: 80vw;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  display: flex;
+}
+.Advent-Calendar h1 {
+  position: absolute;
+  top: -10vh;
+  font-size: 2rem;
+  margin: 0rem 0rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.Advent-Calendar p {
+  position: absolute;
+  bottom: 10vh;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.calendar-grid {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  place-items: center;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  width: 80vw;
+  height: 40vh;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  grid-template-areas: "day1  day2  day3  day4  day5" "day6  day7  day8  day9  day10" "day11  day12  day13  day14  day15" "day16  day17  day18  day19  day20" "day21  day22  day23  day24  day25";
+}
+
+.day-1 {
+  grid-area: day1;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-1 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-2 {
+  grid-area: day2;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-2 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-3 {
+  grid-area: day3;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-3 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-4 {
+  grid-area: day4;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-4 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-5 {
+  grid-area: day5;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-5 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-6 {
+  grid-area: day6;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-6 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-7 {
+  grid-area: day7;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-7 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-8 {
+  grid-area: day8;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-8 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-9 {
+  grid-area: day9;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-9 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-10 {
+  grid-area: day10;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-10 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-11 {
+  grid-area: day11;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-11 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-12 {
+  grid-area: day12;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-12 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-13 {
+  grid-area: day13;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-13 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-14 {
+  grid-area: day14;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-14 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-15 {
+  grid-area: day15;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-15 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-16 {
+  grid-area: day16;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-16 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-17 {
+  grid-area: day17;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-17 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-18 {
+  grid-area: day18;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-18 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-19 {
+  grid-area: day19;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-19 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-20 {
+  grid-area: day20;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-20 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-21 {
+  grid-area: day21;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-21 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-22 {
+  grid-area: day22;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-22 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-23 {
+  grid-area: day23;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-23 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-24 {
+  grid-area: day24;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-24 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.day-25 {
+  grid-area: day25;
+  display: flex;
+  text-align: center;
+  place-items: center;
+}
+.day-25 img {
+  margin: 0px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 4vh;
+}
+
+.Members {
+  height: 60vh;
+  min-width: 100vw;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  display: flex;
+}
+.Members h1 {
+  position: absolute;
+  top: 5vh;
+  font-size: 2rem;
+  margin: 0rem 0rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.TheBoyz {
+  position: relative;
+}
+
+.theboyz {
+  position: absolute;
+  top: -20vh;
+  left: -50vw;
+  width: 100vw;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
