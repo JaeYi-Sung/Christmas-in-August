@@ -40,6 +40,20 @@ h1{
     color: $primary;
 }
 
+h2{
+  font-family: 'Bebas Neue', sans-serif;
+    color: $basic_black;
+}
+
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+    color: $basic_black;
+}
+
+h4{
+  font-family: 'Bebas Neue', sans-serif;
+    color: $basic_black;
+}
 
 .snow{
 
@@ -885,7 +899,7 @@ input.FairyTale{
 //✅ THE BOYZ
 .Members{
 
-  height: 60vh;
+  height: 70vh;
   min-width: 100vw;
   margin: 0rem 0rem;
   padding: 0px 0px;
@@ -907,25 +921,348 @@ input.FairyTale{
       text-align: center;
   }
 
+  p{
+    position: absolute;
+    top: 15vh;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
 }
 
 .TheBoyz{
 
- position: relative;
+  position: absolute;
+  //padding-top: 5rem;
+  top: 25vh;
+  width: 80vw;
+  height: 35vh;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  
+  align-items: center;
+  text-align: center;
+
+  
 
 }
 
-.theboyz{
+
+ .상연{
 
   position: absolute;
-  top: -20vh;
-  left: -50vw;
-  //justify-content: center;
-  //align-items: center;
-  width: 100vw;
-  //height: calc(55vh);
+  top: 13vh;
+  left: 59vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+  
+.제이콥{
+
+  position: absolute;
+  top: 24.5vh;
+  left: 70vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
 }
 
+.영훈{
+
+  position: absolute;
+  left: 0vw;
+  top: 26vh;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+.현재{
+
+  position: absolute;
+  top: 3vh;
+  left: 50vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+.주연{
+
+  position: absolute;
+  top: 14vh;
+  left: 12vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+.케빈{
+
+  position: absolute;
+  top: 4vh;
+  left: 3vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+.뉴{
+
+  position: absolute;
+  top: 6vh;
+  left: 25vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+.큐{
+
+  position: absolute;
+  top: 15vh;
+  left: 35vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+.주학년{
+
+  position: absolute;
+  top: 24vh;
+  left: 23vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+ 
+.선우{
+
+  position: absolute;
+  top: 3.5vh;
+  left: 70vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+ 
+.에릭{
+
+  position: absolute;
+  top: 22vh;
+  left: 48vw;
+
+  width: calc(10vw);
+  height: calc(10vw);
+
+  border: none;
+  //background-image: url(/1/asset/heart.svg);
+  //background-color: rgba(36, 198, 223, 0);
+
+  z-index: 100;
+
+}
+
+
+.Credits{
+
+  height: 130vh;
+  min-width: 100vw;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+
+  justify-content: center;    //가로 정렬
+  align-items: center;        //세로 정렬
+  flex-direction: column;     //아이템 위아래 정렬
+  align-content: center;
+  text-align: center;
+
+  display: flex;
+
+  h1{
+      position: absolute;
+      top: 5vh;
+      margin: 0rem 0rem;
+      font-size: 3rem;
+      text-align: center;
+  }
+
+  h2{
+    position: absolute;
+    top: 15vh;
+    font-size: 2rem;
+    margin: 0rem 0rem;
+    text-align: center;
+}
+
+h3{
+  position: absolute;
+  //top: 40vh;
+  //font-size: 1.5rem;
+  margin: 0rem 0rem;
+  text-align: center;
+}
+
+
+  p{
+    position: absolute;
+    //top: 15vh;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+}
+
+
+.TBZ{
+
+  position: absolute;
+  top: 30vh;
+  //height: 60vh;
+  //min-width: 100vw;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+
+  justify-content: center;    //가로 정렬
+  align-items: center;        //세로 정렬
+  flex-direction: column;     //아이템 위아래 정렬
+  align-content: center;
+  text-align: center;
+
+  display: flex;
+
+}
+
+.tbz
+{
+
+  position: absolute;
+  top: 0;
+
+  //width: calc(80vw);
+  height: calc(30vh);
+
+}
+ 
+.name{
+
+  top: 22vh;
+  font-size: 0.8rem;
+
+}
+
+.date{
+
+  top: 65vh;
+  font-size: 1rem;
+
+}
+
+.boyz{
+
+  top: 70vh;
+  font-size: 0.8rem;
+}
+
+.develop{
+
+  top: 78vh;
+  font-size: 1rem;
+}
+
+.code{
+
+  top: 95vh;
+  font-size: 0.8rem;
+}
+
+.thanks{
+
+  top: 102vh;
+  font-size: 1rem;
+}
+
+.copyright{
+
+  top: 115vh;
+  //bottom: 10vh;
+}
 @keyframes fall {
     from{}
     to{

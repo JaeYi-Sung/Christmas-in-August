@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   position: relative;
@@ -19,6 +20,21 @@ body {
 h1 {
   font-family: "Bebas Neue", sans-serif;
   color: #FC0F1E;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #000000;
+}
+
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #000000;
 }
 
 .snow {
@@ -674,7 +690,7 @@ input.FairyTale {
 }
 
 .Members {
-  height: 60vh;
+  height: 70vh;
   min-width: 100vw;
   margin: 0rem 0rem;
   padding: 0px 0px;
@@ -693,16 +709,224 @@ input.FairyTale {
   font-size: 3rem;
   text-align: center;
 }
-
-.TheBoyz {
-  position: relative;
+.Members p {
+  position: absolute;
+  top: 15vh;
+  font-size: 0.7rem;
+  text-align: center;
 }
 
-.theboyz {
+.TheBoyz {
   position: absolute;
-  top: -20vh;
-  left: -50vw;
-  width: 100vw;
+  top: 25vh;
+  width: 80vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+
+.상연 {
+  position: absolute;
+  top: 13vh;
+  left: 59vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.제이콥 {
+  position: absolute;
+  top: 24.5vh;
+  left: 70vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.영훈 {
+  position: absolute;
+  left: 0vw;
+  top: 26vh;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.현재 {
+  position: absolute;
+  top: 3vh;
+  left: 50vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.주연 {
+  position: absolute;
+  top: 14vh;
+  left: 12vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.케빈 {
+  position: absolute;
+  top: 4vh;
+  left: 3vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.뉴 {
+  position: absolute;
+  top: 6vh;
+  left: 25vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.큐 {
+  position: absolute;
+  top: 15vh;
+  left: 35vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.주학년 {
+  position: absolute;
+  top: 24vh;
+  left: 23vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.선우 {
+  position: absolute;
+  top: 3.5vh;
+  left: 70vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.에릭 {
+  position: absolute;
+  top: 22vh;
+  left: 48vw;
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  z-index: 100;
+}
+
+.Credits {
+  height: 130vh;
+  min-width: 100vw;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  display: flex;
+}
+.Credits h1 {
+  position: absolute;
+  top: 5vh;
+  margin: 0rem 0rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.Credits h2 {
+  position: absolute;
+  top: 15vh;
+  font-size: 2rem;
+  margin: 0rem 0rem;
+  text-align: center;
+}
+.Credits h3 {
+  position: absolute;
+  margin: 0rem 0rem;
+  text-align: center;
+}
+.Credits p {
+  position: absolute;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.TBZ {
+  position: absolute;
+  top: 30vh;
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.tbz {
+  position: absolute;
+  top: 0;
+  height: 30vh;
+}
+
+.name {
+  top: 22vh;
+  font-size: 0.8rem;
+}
+
+.date {
+  top: 65vh;
+  font-size: 1rem;
+}
+
+.boyz {
+  top: 70vh;
+  font-size: 0.8rem;
+}
+
+.develop {
+  top: 78vh;
+  font-size: 1rem;
+}
+
+.code {
+  top: 95vh;
+  font-size: 0.8rem;
+}
+
+.thanks {
+  top: 102vh;
+  font-size: 1rem;
+}
+
+.copyright {
+  top: 115vh;
 }
 
 @keyframes fall {
