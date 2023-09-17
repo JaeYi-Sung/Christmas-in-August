@@ -1,0 +1,363 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background: #B9EEFF;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #D5C099;
+}
+
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #D5C099;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #D5C099;
+}
+
+.snow {
+  padding: 0px 0px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: -12px;
+  scroll-behavior: smooth;
+  margin: 0rem 0rem;
+}
+
+.clicksnow {
+  padding: 0px 0px;
+  position: fixed;
+  z-index: 100;
+  border-radius: 50%;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+  margin: 0rem 0rem;
+}
+
+.MemberMove {
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  min-height: 15vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.TheBoyz {
+  position: absolute;
+  top: 2vh;
+  width: 85vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+.TheBoyz img {
+  width: 4vw;
+  height: 4vw;
+}
+
+.제이콥 {
+  top: -1.5vh;
+}
+
+.영훈 {
+  top: 0.5vh;
+}
+
+.현재 {
+  top: -1.7vh;
+}
+
+.케빈 {
+  top: -1.2vh;
+}
+
+.뉴 {
+  top: 1vh;
+}
+
+.큐 {
+  top: -1.7vh;
+}
+
+.주학년 {
+  top: 0.4vh;
+}
+
+.선우 {
+  top: -1.2vh;
+}
+
+.에릭 {
+  top: 0.2vh;
+}
+
+.Name {
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  min-height: 20vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Name1 {
+  position: absolute;
+  top: 0vh;
+  width: 85vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height: 10vh;
+}
+
+.BackToMAin {
+  position: absolute;
+  left: 0;
+  height: 5vh;
+}
+
+.songs {
+  position: absolute;
+  right: 0;
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+.songs img {
+  width: 4vw;
+  height: 4vw;
+}
+
+.Name2 {
+  position: absolute;
+  top: 10vh;
+  width: 85vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+
+.생일 {
+  position: absolute;
+  left: 0;
+  height: 2vh;
+}
+
+.본명 {
+  height: 2vh;
+}
+
+.포지션 {
+  position: absolute;
+  right: 0;
+  height: 2vh;
+}
+
+.자켓포토 {
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  min-height: 65vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.포토 {
+  position: absolute;
+  top: 0;
+  left: 10vw;
+  height: 3vh;
+}
+
+.Photo1 {
+  width: 85vw;
+  height: 15vh;
+  position: absolute;
+  top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+.Photo1 img {
+  height: 15vh;
+}
+
+.Photo2 {
+  width: 85vw;
+  height: 15vh;
+  position: absolute;
+  top: 22vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+.Photo2 img {
+  height: 15vh;
+}
+
+.Photo3 {
+  width: 85vw;
+  height: 15vh;
+  position: absolute;
+  top: 39vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+  align-items: center;
+  text-align: center;
+}
+.Photo3 img {
+  height: 15vh;
+}
+
+.fancam {
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.팬캠 {
+  position: absolute;
+  top: -5vh;
+  left: 10vw;
+  height: 3vh;
+}
+
+.엠카1 {
+  text-align: right;
+}
+.엠카1 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.인가1 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.뮤뱅2 {
+  text-align: right;
+}
+.뮤뱅2 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.음중2 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.인가2 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.엠카3 {
+  text-align: right;
+}
+.엠카3 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.뮤뱅3 {
+  text-align: right;
+}
+.뮤뱅3 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.음중3 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.인가3 {
+  text-align: right;
+}
+.인가3 iframe {
+  height: 40vw;
+  width: 80vw;
+}
+
+.인사 {
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  min-height: 20vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.인사 h3 {
+  font-size: 0.8rem;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=YH.css.map */

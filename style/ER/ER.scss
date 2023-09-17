@@ -1,0 +1,503 @@
+
+$primary : #FFC1D5;
+$sub_primary: #B9EEFF; 
+$basic_black : #000000;
+$basic_White : #ffffff;
+
+
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+//rem, em : 반응형에 최적화 된 폰트사이즈. html에 설정된 폰트사이즈에 영향을 받음
+// 1rem : html에 지정된 폰트사이즈
+
+html{
+    font-size: 16px;
+    //min-height: 100%;
+}
+
+body{
+    margin : 0px 0px;
+    padding: 0px 0px;
+    background: $sub_primary;
+    font-family: 'Noto Sans KR', sans-serif;
+    //min-height: 100vh;
+
+}
+
+h1{
+  font-family: 'Bebas Neue', sans-serif;
+  color: $primary;
+  //font-size: 1rem;
+}
+
+h4{
+    font-family: 'Bebas Neue', sans-serif;
+    color: $primary;
+    //font-size: 1rem;
+}
+
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+  color: $primary;
+  //font-size: 1rem;
+}
+
+.snow{
+
+  padding: 0px 0px;
+  // height: 12px;
+  // width: 12px;
+  position: absolute;
+  z-index: 100;   //위에 올라와 있어야 함
+  border-radius: 50%;
+  // margin-left: auto;
+  // margin-right: auto;
+  background-color: $basic_White;
+  top: -12px;
+//  bottom: -30px;
+//  animation: fall 7s linear;
+  scroll-behavior: smooth;
+  margin: 0rem 0rem;
+
+
+}
+
+.clicksnow{
+
+  padding: 0px 0px;
+  // height: 12px;
+  // width: 12px;
+  position: fixed;
+  z-index: 100;   //위에 올라와 있어야 함
+  border-radius: 50%;
+  // margin-left: auto;
+  // margin-right: auto;
+  background-color: $basic_White;
+//  top: -12px;
+//  bottom: -30px;
+//  animation: fall 7s linear;
+  scroll-behavior: smooth;
+  margin: 0rem 0rem;
+
+}
+
+.MemberMove{
+
+    margin: 0rem 0rem;
+    padding: 0px 0px;
+    //100vh 모두 사용, 가운데 정렬 -> flex로
+    min-height: 15vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;    //가로 정렬
+    align-items: center;    //세로 정렬
+    flex-direction: column;     //아이템 위아래 정렬
+
+}
+
+.TheBoyz{
+
+    position: absolute;
+    //padding-top: 5rem;
+    top: 2vh;
+    width: 85vw;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 0px 0px;
+    margin: 0rem 0rem;
+    
+    align-items: center;
+    text-align: center;
+  
+    img{
+        width: 4vw;
+        height: 4vw;
+    }
+    
+  }
+  
+  .제이콥{
+    top: -1.5vh;
+  }
+  
+  .영훈{
+    top: 0.5vh;
+  }
+
+  .현재{
+    top: -1.7vh;
+  }
+
+  .케빈{
+    top: -1.2vh;
+  }
+
+  .뉴{
+    top: 1vh;
+  }
+
+  .큐{
+    top: -1.7vh;
+  }
+
+  .주학년{
+    top: 0.4vh;
+  }
+
+  .선우{
+    top : -1.2vh;
+  }
+
+  .에릭{
+    top: 0.2vh;
+  }
+
+  .Name{
+
+    margin: 0rem 0rem;
+    padding: 0px 0px;
+    //100vh 모두 사용, 가운데 정렬 -> flex로
+    min-height: 20vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;    //가로 정렬
+    align-items: center;    //세로 정렬
+    flex-direction: column;     //아이템 위아래 정렬
+
+  }
+
+  .Name1{
+
+    position: absolute;
+    //padding-top: 5rem;
+    top: 0vh;
+    width: 85vw;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 0px 0px;
+    margin: 0rem 0rem;
+    
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  .logo{
+
+    //position: absolute;
+    //left: 42%;
+    height: 10vh;
+
+  }
+
+  .BackToMAin{
+
+    position: absolute;
+    left: 0;
+    height: 5vh;
+
+  }
+
+  .songs{
+
+    position: absolute;
+    //padding-top: 5rem;
+    right: 0;
+    width: 20vw;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 0px 0px;
+    margin: 0rem 0rem;
+    
+    align-items: center;
+    text-align: center;
+  
+    img{
+        width: 4vw;
+        height: 4vw;
+    }
+    
+  }
+
+
+  .Name2{
+
+    position: absolute;
+    //padding-top: 5rem;
+    top: 10vh;
+    width: 85vw;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 0px 0px;
+    margin: 0rem 0rem;
+    
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  .생일{
+    position: absolute;
+    left: 0;
+    height: 2vh;
+  }
+
+  .본명{
+    //position: absolute;
+    //left: 41%;
+    height: 2vh;
+  }
+  .포지션{
+    position: absolute;
+    right: 0;
+    height: 2vh;
+  }
+
+
+  .자켓포토{
+
+    margin: 0rem 0rem;
+    padding: 0px 0px;
+    //100vh 모두 사용, 가운데 정렬 -> flex로
+    min-height: 65vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;    //가로 정렬
+    align-items: center;    //세로 정렬
+    flex-direction: column;     //아이템 위아래 정렬
+
+}
+
+.포토{
+  position: absolute;
+  top: 0;
+  left: 10vw;
+  height: 3vh;
+}
+
+.Photo1{
+
+  width: 85vw;
+  height: 15vh;
+  position: absolute;
+  top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+    
+  align-items: center;
+  text-align: center;
+
+  img{
+    height: 15vh;
+  }
+
+}
+
+.Photo2{
+
+  width: 85vw;
+  height: 15vh;
+  position: absolute;
+  top: 22vh;
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+    
+  align-items: center;
+  text-align: center;
+
+  img{
+    height: 15vh;
+  }
+
+}
+
+.Photo3{
+
+  width: 85vw;
+  height: 15vh;
+  position: absolute;
+  top: 39vh;
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 0px 0px;
+  margin: 0rem 0rem;
+    
+  align-items: center;
+  text-align: center;
+
+  img{
+    height: 15vh;
+  }
+}
+  
+.fancam{
+
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  //100vh 모두 사용, 가운데 정렬 -> flex로
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-around;    //가로 정렬
+  align-items: center;    //세로 정렬
+  flex-direction: column;     //아이템 위아래 정렬
+
+}
+
+.팬캠{
+  position: absolute;
+  top: -5vh;
+  left: 10vw;
+  height: 3vh;
+}
+
+.엠카1{
+  //position: absolute;
+  //top: 5vh;
+
+  text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+
+.인가1{
+  //position: absolute;
+  //top: 5vh;
+
+  //text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.뮤뱅2{
+  //position: absolute;
+  //top: 5vh;
+
+  text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.음중2{
+  //position: absolute;
+  //top: 5vh;
+
+  //text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.인가2{
+  //position: absolute;
+  //top: 5vh;
+
+  //text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.엠카3{
+  //position: absolute;
+  //top: 5vh;
+
+  text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.뮤뱅3{
+  //position: absolute;
+  //top: 5vh;
+
+  text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.음중3{
+  //position: absolute;
+  //top: 5vh;
+
+  //text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+.인가3{
+  //position: absolute;
+  //top: 5vh;
+
+  text-align: right;
+
+  iframe{
+    height: 40vw;
+    width: 80vw;
+  }
+}
+
+.인사{
+
+  margin: 0rem 0rem;
+  padding: 0px 0px;
+  //100vh 모두 사용, 가운데 정렬 -> flex로
+  min-height: 20vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;    //가로 정렬
+  align-items: center;    //세로 정렬
+  flex-direction: column;     //아이템 위아래 정렬
+
+  h3{
+
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes fall {
+  from{}
+  to{
+      transform: translateY(100vh);
+      opacity: 0;
+  }
+}
