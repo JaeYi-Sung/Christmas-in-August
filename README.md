@@ -1,7 +1,7 @@
 
 
 ####
-# 🎄The BOYZ 2nd Regular Album PHANTASY Part 01 ⛄️ </br>
+## 🎄 The BOYZ 2nd Regular Album PHANTASY Part 01 ⛄️ </br>
 
 <img src="./asset/로고.svg" />
 
