@@ -715,7 +715,7 @@ input.FairyTale {
 }
 .Members p {
   position: absolute;
-  top: 15vh;
+  top: 16vh;
   font-size: 0.7rem;
   text-align: center;
 }
@@ -864,10 +864,11 @@ input.FairyTale {
 }
 .Credits h3 {
   position: absolute;
-  top: 15vh;
+  top: 17vh;
   font-size: 2rem;
   margin: 0rem 0rem;
   text-align: center;
+  height: 3vh;
 }
 .Credits h4 {
   position: absolute;
@@ -900,7 +901,7 @@ input.FairyTale {
 }
 
 .name {
-  top: 22vh;
+  top: 25vh;
   font-size: 1rem;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
@@ -909,11 +910,12 @@ input.FairyTale {
 .date {
   top: 65vh;
   font-size: 1.5rem;
+  height: 3vh;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .boyz {
-  top: 70vh;
+  top: 72vh;
   font-size: 1rem;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -922,22 +924,23 @@ input.FairyTale {
   top: 78vh;
   font-size: 1rem;
   font-family: "Bebas Neue", sans-serif;
+  height: 5vh;
 }
 
 .code {
-  top: 96vh;
+  top: 102vh;
   font-size: 0.8rem;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .thanks {
-  top: 102vh;
+  top: 110vh;
   font-size: 1rem;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .copyright {
-  top: 115vh;
+  top: 120vh;
 }
 
 @keyframes fall {
