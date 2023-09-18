@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="kr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ERIC</title>
-
+    <title>TBZ-PHANTASY</title>
     <link rel="short icon" href="#">
-    <link rel="stylesheet" href="./style/ER/ER.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
 </head>
+
+<!-- <script>
+    var audio = new Audio('1.mp3');
+</script> -->
 
 <audio id="track01">
     <source src="./sound/LIPGLOSS.mp3">
@@ -32,7 +37,148 @@
 </audio>
 
 <body>
-    <section class="MemberMove">
+    <section class="main">
+        <div class="logo-holder">
+            <object type="image/svg+xml" data="./asset/로고.svg" class="logo">
+                <img src="./asset/로고.svg" alt="Christmas-8-Logo"/>
+            </object>
+            
+            <!-- 주석 : 커멘드 슬레시 
+             main 클래스 내에 한줄로 로고 혹은 이미지 처리 -: div 클래스로 선언
+            경로 지정 방법
+            1. / root 폴더 
+            2. ./ 현재 플더
+            3. ../ 상위 폴더-->
+        </div>
+        <div class="heart-holder">
+            <img src="./asset/시작종.svg" alt="Heart-Deco">
+        </div>
+        <h1>Phantasy 01</h1>
+        <!-- <div id="snow"></div> -->
+    </section>
+
+    <section class="music">
+        <p>오너먼트 중앙을 클릭하면 관련 음원이 재생/일시정지 됩니다&nbsp;&nbsp;&nbsp;<img src="./asset/리스.svg"></p>
+        <div class="Christmas-Tree">
+            <img src="./asset/트리파이널.svg" alt="Christmas-Tree" class="final-tree">
+            <input type="button" class="Lipgloss">
+            <input type="button" class="PassionFruit">
+            <input type="button" class="Lighthouse">
+            <input type="button" class="Fantasize">
+            <input type="button" class="FireEyes">
+            <input type="button" class="FairyTale">
+        </div>
+        <!-- <h1 id="trackname1">LIPGLOSS</h1> -->
+        <div class="Trackname1" style="display: none;">
+            <h1 class = "trackname1">LIPGLOSS</h1>
+        </div>
+        <div class="Trackname2" style="display: none;">
+            <h1 class = "trackname2">Passion Fruit</h1>
+        </div>
+        <div class="Trackname3" style="display: none;">
+            <h1 class = "trackname3">Lighthouse</h1>
+        </div>
+        <div class="Trackname4" style="display: none;">
+            <h1 class = "trackname4">Fantasize</h1>
+        </div>
+        <div class="Trackname5" style="display: none;">
+            <h1 class = "trackname5">Fire&nbsp;Eyes</h1>
+        </div>
+        <div class="Trackname6" style="display: none;">
+            <h1 class = "trackname6">Fairy&nbsp;Tale</h1>
+        </div>
+        <!-- <div class="track-01">
+            <input type="button" class="img-button" onclick="audio.play()">
+            <input type="button" class="img-button2" onclick="audio.play()">
+            <input type="button" onclick="audio.play()"> -->
+        <!-- </div> -->
+        <!-- <input type="button" class="img-button3" onclick="audio.play()">  -->
+    </section>
+
+    <section class="Advent-Calendar">
+        <h1>Advent Calendar</h1>
+        <div class="calendar-grid">
+            <div class="day day-1">
+                <img src="./asset/캘린더/Day1.svg" class="day1">
+            </div>
+            <div class="day day-2">
+                <img src="./asset/캘린더/Day2.svg" class="day2">
+            </div>
+            <div class="day day-3">
+                <img src="./asset/캘린더/Day3.svg" class="day3">
+            </div>
+            <div class="day day-4">
+                <img src="./asset/캘린더/Day4.svg" class="day4">
+            </div>
+            <div class="day day-5">
+                <img src="./asset/캘린더/Day5.svg" class="day5">
+            </div>
+            <div class="day day-6">
+                <img src="./asset/캘린더/Day6.svg" class="day6">
+            </div>
+            <div class="day day-7">
+                <img src="./asset/캘린더/Day7.svg" class="day7">
+            </div>
+            <div class="day day-8">
+                <img src="./asset/캘린더/Day8.svg" class="day8">
+            </div>
+            <div class="day day-9">
+                <img src="./asset/캘린더/Day9.svg" class="day9">
+            </div>
+            <div class="day day-10">
+                <img src="./asset/캘린더/Day10.svg" class="day10">
+            </div>
+            <div class="day day-11">
+                <img src="./asset/캘린더/Day11.svg" class="day11">
+            </div>
+            <div class="day day-12">
+                <img src="./asset/캘린더/Day12.svg" class="day12">
+            </div>
+            <div class="day day-13">
+                <img src="./asset/캘린더/Day13.svg" class="day13">
+            </div>
+            <div class="day day-14">
+                <img src="./asset/캘린더/Day14.svg" class="day14">
+            </div>
+            <div class="day day-15">
+                <img src="./asset/캘린더/Day15.svg" class="day15">
+            </div>
+            <div class="day day-16">
+                <img src="./asset/캘린더/Day16.svg" class="day16">
+            </div>
+            <div class="day day-17">
+                <img src="./asset/캘린더/Day17.svg" class="day17">
+            </div>
+            <div class="day day-18">
+                <img src="./asset/캘린더/Day18.svg" class="day18">
+            </div>
+            <div class="day day-19">
+                <img src="./asset/캘린더/Day19.svg" class="day19">
+            </div>
+            <div class="day day-20">
+                <img src="./asset/캘린더/Day20.svg" class="day20">
+            </div>
+            <div class="day day-21">
+                <img src="./asset/캘린더/Day21.svg" class="day21">
+            </div>
+            <div class="day day-22">
+                <img src="./asset/캘린더/Day22.svg" class="day22">
+            </div>
+            <div class="day day-23">
+                <img src="./asset/캘린더/Day23.svg" class="day23">
+            </div>
+            <div class="day day-24">
+                <img src="./asset/캘린더/Day24.svg" class="day24">
+            </div>
+            <div class="day day-25">
+                <img src="./asset/캘린더/Day25.svg" class="day25">
+            </div>
+        </div>
+        <p>위의 아이콘을 클릭해보세요!</p>
+    </section>
+    <section class="Members">
+        <h1>THE BOYZ</h1>
+        <p>맴버의 마이크 색 볼을 클릭하세요!</p>
         <div class="TheBoyz">
             <img src="./asset/맴버/상연.svg" class="상연">
             <img src="./asset/맴버/제이콥.svg" class="제이콥">
@@ -46,98 +192,33 @@
             <img src="./asset/맴버/선우.svg" class="선우">
             <img src="./asset/맴버/에릭.svg" class="에릭">
         </div>
-    </section>
-    
-    <section class="Name">
-        <div class="Name1">
-            <img src="./asset/시작종.svg" class="BackToMAin">
-            <img src="./asset/맴버/에릭/Group 16.svg" class="logo">
-            <div class="songs">
-                <img src="./asset/별.svg" class="Lipgloss">
-                <img src="./asset/무지개.svg" class="Lighthouse">
-                <img src="./asset/양말.svg" class="Fantasize">
-                <img src="./asset/슈가.svg" class="PassionFruit">
-                <img src="./asset/유니콘.svg" class="FairyTale">
-                <img src="./asset/파이어아이스.svg" class="FireEyes">
-            </div>
-        </div>
-        <div class="Name2">
-            <img src="./asset/맴버/에릭/생일-3.svg" class="생일">
-            <img src="./asset/맴버/에릭/본명.svg" class="본명">
-            <img src="./asset/맴버/에릭/포지션.svg" class="포지션">
-        </div>
-    </section>
-
-    <section class="자켓포토">
-        <img src="./asset/맴버/에릭/큐-포토-1.svg" class="포토">
-        <div class="Photo1">
-            <div class="photo1">
-                <img src="./asset/맴버/E1.png" class="1번">
-            </div>
-            <div class="photo2">
-                <img src="./asset/맴버/E2.png" class="2번">
-            </div>
-            <div class="photo3">
-                <img src="./asset/맴버/E3.png" class="3번">
-            </div>
-        </div>
-
-        <div class="Photo2">
-            <div class="photo4">
-                <img src="./asset/맴버/E4.png" class="4번">
-            </div>
-            <div class="photo5">
-                <img src="./asset/맴버/E5.png" class="5번">
-            </div>
-            <div class="photo6">
-                <img src="./asset/맴버/E6.png" class="6번">
-            </div>
-        </div>
-        <div class="Photo3">
-            <div class="photo7">
-                <img src="./asset/맴버/E7.png" class="7번">
-            </div>
-            <div class="photo8">
-                <img src="./asset/맴버/E8.png" class="8번">
-            </div>
-            <div class="photo9">
-                <img src="./asset/맴버/E9.png" class="9번">
-            </div>
-        </div>
-    </section>
-    <section class="fancam">
-        <img src="./asset/맴버/에릭/큐-팬캠-1.svg" class="팬캠">
-        <div class="엠카1">
-            <h4>2023-08-10 MCOUNTDOWN</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zi80ym19foA?si=EaEdRKqRmklQvS5r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div class="인가1">
-            <h4></br></br>2023-08-13 Inkigayo</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2sGOeYsg9B0?si=L-tVv2kKsFlZg5K8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div class="뮤뱅2">
-            <h4></br></br>2023-08-18 MusicBank</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_Wkw00x1cRs?si=wqCPzH7m2n2P7TxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <!-- <div class="음중2">
-            <h4>2023-08-10 MCOUNTDOWN</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/IiYjrjb1co8?si=Qb-ZCK8ppbAw57kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div> -->
-        <div class="인가2">
-            <h4></br></br>2023-08-20 Inkigayo</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/CU67eOt0Uqk?si=l2-5jtLBNfvXUK99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
         
     </section>
-    <section class="인사">
-        <h3>Always Remember, WE Love ERIC</h3>
+    <section class="Credits">
+        <h1>credits</h1>
+        <h3>Best We the BOYZ</h3>
+        <p class="name">상연 제이콥 영훈 현재 주연 케빈 뉴 큐 주학년 선우 에릭</p>
+        <div class="TBZ">
+            <img src="./asset/맴버/Photo/TBZ1.JPG" class="tbz">
+        </div>
+        <h4 class="date">AUG 07 2023</h4>
+        <p class="boyz">THE BOYZ</p>
+        <h4 class="develop">DESIGN & Develop BY JAEYI SUNG<br/><br/>
+            resource from <br/>
+            THE BOYZ 2ND ALBUM [PHANTASY] <br/>
+            01 Christmas In August</h4>
+        <p class="code">code & assets</p>
+        <p class="thanks">especially thanks to the b❤️<br/>
+            SuHyeon kim, HyoJeong Kim</p>
+        <p class="copyright">No commercial use except for The Boyz<br/><br/>
+            Copyright © 2023 JAE YI SUNG. All rights reserved.<br/>
+            Original Album IST Entertainment / CC BY</p>
     </section>
 
-    <script src="./js/pageMove2.js"></script>
-    <script src="./js/sound2.js"></script>
-    <!-- <script src="./js/snow.js"></script> -->
-    <script src="./js/click2.js"></script>
-
+    <script src="./js/sound.js"></script>
+    <script src="./js/snow.js"></script>
+    <script src="./js/move.js"></script>
+    <script src="./js/click.js"></script>
+    <script src="./js/pageMove.js"></script>
 </body>
 </html>
