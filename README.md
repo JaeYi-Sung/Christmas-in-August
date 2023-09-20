@@ -31,7 +31,7 @@ https://phantasy01-tbz.web.app/
 ### Design
 #### Main View
 For Christmas in August, sketched ideas based on two images: "Summer" and "Christmas"</br>
-From Summer, using light blue background colors and bright corrections.</br>
+From Summer, using light blue background and bright corrections.</br>
 From Christmas, getting primary red color, snowflakes, trees, advent calendars, and ornament items.</br>
 
 
