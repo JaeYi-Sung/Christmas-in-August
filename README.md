@@ -11,7 +11,7 @@
 <div align="center">
 
 [![HTML](https://img.shields.io/static/v1?label=HTML&message=for%20Markup&color=FF4400)](https://httpie.io/product)
-[![SCSS](https://img.shields.io/static/v1?label=CSS&message=for%20Design&color=0073CF)](https://httpie.io/app)
+[![SCSS](https://img.shields.io/static/v1?label=CSS&message=for%20Style&color=0073CF)](https://httpie.io/app)
 [![JavaScript](https://img.shields.io/static/v1?label=JavaScript&message=for%20Functions&color=FFEA00)](https://httpie.io/cli)
 [![Firebase](https://img.shields.io/static/v1?label=Firebase&message=for%20Web&nbsp;Hosting&color=00AAFF)](https://httpie.io/app)
 [![Figma](https://img.shields.io/static/v1?label=Figma&message=for%20Design&color=FD93F9)](https://httpie.io/app)
