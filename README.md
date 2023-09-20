@@ -20,22 +20,39 @@
 
 ### Description
 
-더보이즈의 2번째 정규 앨범 PHANTASY의 첫번째 파트, Christmas in August 웹 사이트를 제작 프로젝트 </br>
+The Boyz's 2nd regular album PHANTASY Part 1, Christmas in August website production project </br>
 
 🎁 </br>
 https://phantasy01-tbz.web.app/
 
 </br>
 
+
 ### Design
 #### Main View
-8월의 크리스마스 컨셉에 맞춰 "여름"과 "크리스마스"라는 두가지 측면을 기반으로 아이디어 스케치 진행.</br>
-여름은 청량한 배경 색상과 밝은 보정으로 크리스마스는 붉은색과 눈송이, 트리와 어드벤트 캘린더 아이템으로 나타냄.
+For Christmas in August, I sketched ideas based on two images: "Summer" and "Christmas"</br>
+From Summer, I use light blue background colors and bright corrections.</br>
+From Christmas I use red color, snowflakes, trees, advent calendars, and ornament items.</br>
 
-- 로고
-- 트리 : 오너먼트를 클릭하면 앨범의 수록곡이 나올 수 있게 구성.
-- 어드벤트 캘린더
-- 맴버 볼
+
+</br>
+Logo: Red typography with snow </br>
+</br>
+Tree: As the biggest symbol of Christmas, the tree is the main image for this album.</br>
+Therefore, the tree's ornament was symbolized for and icons are related to the songs. </br>
+Clicking on each icon plays the corresponding song. </br>
+Also, balls with the members’ symbolic colors were hung on the tree. </br> 
+</br>
+Advent Calendar: Each of these activities contains the context of being a precious gift </br>
+in the sense of receiving gifts every day while waiting for Christmas. </br>
+When the icons on the calendar are clicked on, </br>
+it will be connected to the videos of the album one by one. </br>
+</br>
+Member Ball: These balls were hanging on the tree. </br>
+The order and composition of balls were taken from the choreography movement. </br>
+When clicked, it connects to each member page.</br>
+</br>
+
 
 </div>
    
