@@ -39,17 +39,17 @@ From Christmas, getting primary red color, snowflakes, trees, advent calendars, 
 Logo: Red typography with snow </br>
 </br>
 Tree: As the biggest symbol of Christmas, the tree is the main image for this album.</br>
-Therefore, the tree's ornament was symbolized for and icons are related to the songs. </br>
+The tree's ornaments are symbolized for and related to the songs of album. </br>
 Clicking on each icon plays the corresponding song. </br>
 Also, balls with the members’ symbolic colors were hung on the tree. </br> 
 </br>
-Advent Calendar: Each of these activities contains the context of being a precious gift </br>
-in the sense of receiving gifts every day while waiting for Christmas. </br>
+Advent Calendar: Each of video of this album is a precious gift </br>
+in the sense of meaning of advent calendar that receiving gifts every day while waiting for Christmas. </br>
 When the icons on the calendar are clicked on, </br>
-it will be connected to the videos of the album one by one. </br>
+it connects to the videos of the album one by one. </br>
 </br>
 Member Ball: These balls were hanging on the tree. </br>
-The order and composition of balls were taken from the choreography movement. </br>
+The order and composition of balls is taken from the choreography movement. </br>
 When clicked, it connects to each member page.</br>
 </br>
 
