@@ -20,7 +20,8 @@
 
 ### Description
 
-The Boyz's 2nd regular album PHANTASY Part 1, Christmas in August website production project </br>
+The Boyz's 2nd regular album PHANTASY Part 1, Christmas in August website production project </br></br>
+SEP 7 - 18 2023 </br>
 
 🎁 </br>
 https://phantasy01-tbz.web.app/
@@ -53,6 +54,30 @@ The order and composition of balls is taken from the choreography movement. </br
 When clicked, it connects to each member page.</br>
 </br>
 
+#### Member View
+The primary color of each page is the member's microphone color.</br>
+The page displays individual the album jacket photos and fancams.
+
+</br>
+
+### Develop
+#### Function
+click.js : Click event to make it snow. </br>
+move.js : navigation to external links. </br>
+pagemove.js : Handling movement between pages. </br>
+snow.js : Animation effect of falling snow in the background. </br>
+sound.js : Managing the play and pause of songs corresponding to the ornament. </br>
+
+</br>
+
+### Issues 
+1. 이미지 경로 처리 : 경로를 복사해서 붙여주면 안되고 모두 파일에서 찾아서 넣어줘야 한다. (전자로 할 경우 로컬은 잘 되지만, 서버에 올리면 안보인다.) <br>
+2. 종횡비 맞추기 : vertical scroll을 중심이기 때문에 주로 vh에 맞추는 것이 좋다. vw에 맞추게 된다면 반드시 이미지 혹은 아이템의 종횡비를 잘 따져서 중분한 vh 간격을 준뒤에 겹치지 않게 해야한다. </br>
+3. 세션 쪼개기 : 각 view마다 세션을 나눠서 만들면 vh 문제를 효율적으로 관리할 수 있다. HTML 바디 안에 여러개의 세션으로 나눠서 코딩하면 된다. </br>
+4. scss : css의 경우 변수 지정과 코드 중복이 매우 심한데, scss를 사용하면 이를 극복할 수 있다. 태그 별로 묶어서 스타일을 처리하고, 변수도 지정할 수 있다. </br>
+5. 이미지 용량 : 용량이 너무 크면 로딩이 너무 오래 걸린다. 용량이 큰 SVG 파일을 바로 받지 말고 4X png로 변환한 뒤에 픽셀값만 살려서 SVG로 바꾸면 용량을 줄이면서 이미지 화질을 유지할 수 있다. </br>
+
+</br>
 
 </div>
-   
+
