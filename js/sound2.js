@@ -447,32 +447,99 @@ document.querySelector(".FairyTale").addEventListener("click", function()
 });
 
 
+//track1
 track1.addEventListener("ended", function(){ 
     is_play1 = false;
-    
+    //trackname1.style.display = "none";
 });
 
+track1.addEventListener("play", function() {
+    is_play1 = true;
+    //trackname1.style.display =  "block";
+});
+
+track1.addEventListener("pause", function() {
+    is_play1 = false;
+    //trackname1.style.display = "none";
+});
+
+//track2
 track2.addEventListener("ended", function(){ 
     is_play2 = false;
-   
+    //trackname2.style.display = "none";
 });
 
+track2.addEventListener("play", function() {
+    is_play2 = true;
+    //trackname2.style.display =  "block";
+});
+
+track2.addEventListener("pause", function() {
+    is_play2 = false;
+    //trackname2.style.display = "none";
+});
+
+
+//track3
 track3.addEventListener("ended", function(){ 
     is_play3 = false;
-    
+    //trackname3.style.display = "none";
 });
 
+track3.addEventListener("play", function() {
+    is_play3 = true;
+    //trackname3.style.display =  "block";
+});
+
+track3.addEventListener("pause", function() {
+    is_play3 = false;
+    //trackname3.style.display = "none";
+});
+
+//track4
 track4.addEventListener("ended", function(){ 
     is_play4 = false;
-   
+    //trackname4.style.display = "none";
 });
 
+track4.addEventListener("play", function() {
+    is_play4 = true;
+    //trackname4.style.display =  "block";
+});
+
+track4.addEventListener("pause", function() {
+    is_play4 = false;
+    //trackname4.style.display = "none";
+});
+
+//track5
 track5.addEventListener("ended", function(){ 
     is_play5 = false;
-    
+    //trackname5.style.display = "none";
 });
 
+track5.addEventListener("play", function() {
+    is_play5 = true;
+    //trackname5.style.display =  "block";
+});
+
+track5.addEventListener("pause", function() {
+    is_play5 = false;
+    //trackname5.style.display = "none";
+});
+
+//track6
 track6.addEventListener("ended", function(){ 
     is_play6 = false;
-    
+    //trackname6.style.display = "none";
+});
+
+track6.addEventListener("play", function() {
+    is_play6 = true;
+    //trackname6.style.display =  "block";
+});
+
+track6.addEventListener("pause", function() {
+    is_play6 = false;
+    //trackname6.style.display = "none";
 });
